@@ -23,12 +23,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Basket\CheckoutBasket\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\BuildingBlocks.Messaging\BuildingBlocks.Messaging.csproj" />
     <ProjectReference Include="..\..\..\BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj" />
-  </ItemGroup>
+  </ItemGroup>  
 
   <ItemGroup>
     <Protobuf Include="..\..\Discount\Discount.Grpc\Protos\discount.proto" GrpcServices="Client">
